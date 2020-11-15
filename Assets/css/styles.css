@@ -1,8 +1,12 @@
+.images{
+    box-shadow: 10px 10px 15px 5px rgba(122, 122, 122, 0.746);
+    margin-bottom: 20px;
+}
 .images img{
     width: 100%;
     height: 100px;
-    margin-bottom: 20px ;
-    box-shadow: lightgray;
+    
+    
 }
 
 @media only screen and (max-width:575px){
