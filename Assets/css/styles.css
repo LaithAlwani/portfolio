@@ -8,17 +8,16 @@
     
 }
 
-#about-me{
-    width: 50%;
-}
-
 @media only screen and (max-width:575px){
     .images img{
-        height: auto;
+        height: auto;   
     }
 
     #personal-image{
         border-radius: 50%;
     }
-
+    #about-me{
+        padding: 20px ;
+    }
+    
 }
