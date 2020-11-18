@@ -18,6 +18,17 @@
 }
 /* CONTACT FORM ENDS */
 
+/* PROTFOLIO PAGE START */
+.portfolio .collection{
+    margin-bottom: 20px;
+    
+}
+ .portfolio .card{
+    height: 100%; 
+} 
+
+/* PORTFOLIO PAGE ENDS */
+
 @media only screen and (max-width:575px){
     .images img{
         height: auto;   
