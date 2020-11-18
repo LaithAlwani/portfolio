@@ -1,16 +1,14 @@
-html, body{
+ html, body{
     
     height: 100%;
     margin: 0;
-}
+} 
 .container{
-    height: 100%;
-    padding-bottom: 170px;
-}
-
+    padding-bottom: 80px;
+} 
 
 .images{
-    box-shadow: 5px 5px 40px 2px rgba(122, 122, 122, 0.746);
+    box-shadow: 5px 5px 40px 2px rgba(122, 122, 122, 0.75);
     margin-bottom: 20px;
 }
 .images img{
@@ -21,8 +19,12 @@ html, body{
 }
 footer{
     background-color: rgba(214, 214, 214, 0.5);
-    height: 170px;
-    margin-top:-170px;
+    height: 70px;
+    margin-top:-70px;
+    
+}
+footer .row{
+    width: 100%;
 }
 footer ul{
     list-style: none;
@@ -41,14 +43,24 @@ footer a:active{
     color: white;
 }
 
-/* #copy-right{
+ /* #copy-right{
     position: relative;
 }
 #copy-right-content{
     position: absolute;
-    bottom:-10px;
-    left:35.33%; 
-}  */
+    margin-bottom: 5px;
+    bottom:0px;
+    left:33.33%; 
+}   */
+
+/* contact form start  */
+.contact-form{
+    height: 100%;
+    width: 50%;
+    margin:auto;
+}
+
+/* Contact form End */
 
 @media only screen and (max-width:575px){
     .images img{
@@ -61,5 +73,29 @@ footer a:active{
     #about-me{
         padding: 20px ;
     }
+
+    footer{
+        height: 200px;
+    }
+    /* #copy-right-content{
+        position: relative;
+        text-align: left;
+        
+    }   */
+
     
+}
+
+@media only screen and (max-width:853px){
+    footer {
+       height: 100px;
+        
+    }
+}
+
+@media only screen and (max-width:998px){
+    footer .ml-5{
+        margin: 0px !important;
+        
+    }
 }
