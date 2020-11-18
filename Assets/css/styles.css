@@ -1,66 +1,22 @@
- html, body{
-    
-    height: 100%;
-    margin: 0;
-} 
-.container{
-    padding-bottom: 80px;
-} 
-
 .images{
-    box-shadow: 5px 5px 40px 2px rgba(122, 122, 122, 0.75);
+    box-shadow: 10px 10px 15px 5px rgba(122, 122, 122, 0.746);
     margin-bottom: 20px;
 }
 .images img{
     width: 100%;
     height: 100px;
-    border:white 3px solid;
+}
+
+/* CONTACT FORM STARTS */
+
+.contact-from{
     
+    margin: 1rem auto;
+    border: 1px solid lightgrey;
+    box-shadow: 10px 10px 20px 1px rgba(180, 180, 180, 0.534);
+    padding: 20px;
 }
-footer{
-    background-color: rgba(214, 214, 214, 0.5);
-    height: 70px;
-    margin-top:-70px;
-    
-}
-footer .row{
-    width: 100%;
-}
-footer ul{
-    list-style: none;
-}
-footer a{
-    color:rgb(133, 133, 133);
-}
-footer a:hover{
-    color: rgba(71, 71, 71);
-}
-footer a:active{
-    color: rgba(71, 71, 71);
-}
-.btn{
-    background-color: rgb(133, 133, 133);
-    color: white;
-}
-
- /* #copy-right{
-    position: relative;
-}
-#copy-right-content{
-    position: absolute;
-    margin-bottom: 5px;
-    bottom:0px;
-    left:33.33%; 
-}   */
-
-/* contact form start  */
-.contact-form{
-    height: 100%;
-    width: 50%;
-    margin:auto;
-}
-
-/* Contact form End */
+/* CONTACT FORM ENDS */
 
 @media only screen and (max-width:575px){
     .images img{
@@ -74,28 +30,6 @@ footer a:active{
         padding: 20px ;
     }
 
-    footer{
-        height: 200px;
-    }
-    /* #copy-right-content{
-        position: relative;
-        text-align: left;
-        
-    }   */
 
     
-}
-
-@media only screen and (max-width:853px){
-    footer {
-       height: 100px;
-        
-    }
-}
-
-@media only screen and (max-width:998px){
-    footer .ml-5{
-        margin: 0px !important;
-        
-    }
 }
