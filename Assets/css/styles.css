@@ -29,13 +29,28 @@ body{
 
 /* CONTACT FORM STARTS */
 
-.contact-form{
-    
-    margin: 1rem auto;
+.contact-form{  
+    margin: 5% 30%;
     border: 1px solid lightgrey;
     box-shadow: 10px 10px 20px lightgrey;
-    padding: 20px;
+    padding: 0px;
 }
+.contact-form-top{
+    background-color: lightgrey;
+    padding: 10px;
+}
+.contact-form-main{
+    padding: 10px;
+}
+.contact-form .btn{
+    background-color: gray;
+    border-color: gray;
+    color: white;
+}
+.contact-form .btn:hover{
+    background-color: darkgrey;
+}
+
 /* CONTACT FORM ENDS */
 
 /* PROTFOLIO PAGE START */
