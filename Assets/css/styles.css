@@ -1,3 +1,11 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
  .navbar{
     position: relative;
     
@@ -21,7 +29,7 @@
 
 /* CONTACT FORM STARTS */
 
-.contact-from{
+.contact-form{
     
     margin: 1rem auto;
     border: 1px solid lightgrey;
@@ -42,6 +50,21 @@
     height: 100%; 
 } 
 
+footer{
+    background-color: lightgray;
+    margin-top: auto;
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+}
+.list-inline-item a{
+    color: rgb(53, 53, 53);
+}
+.list-inline-item a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
 
 /* PORTFOLIO PAGE ENDS */
 
@@ -52,12 +75,11 @@
         position: absolute;
         top:45px;
         right:15px;
-        font-size: 0.85em;
+        
         
     }  
     .navbar-social li{
-        margin: 0 5px;
-        
+        margin: 0 5px;  
     }
 
     .images img{
