@@ -88,10 +88,8 @@ footer{
         display: flex;
         flex-direction: row;
         position: absolute;
-        top:45px;
+        top:50px;
         right:15px;
-        
-        
     }  
     .navbar-social li{
         margin: 0 5px;  
@@ -109,6 +107,10 @@ footer{
         padding: 20px ;
     }
 
+    .contact-form{
+        width: 100%;
+        margin: 25px 0;
+    }
 
     
 }
