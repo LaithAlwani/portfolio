@@ -1,12 +1,14 @@
-/* .navbar-right {
-    float: left;
+ .navbar{
+    position: relative;
     
 }
-.navbar-right  li{ 
-    display: inline-block;
-   
-    
-} */
+.collapse{
+    margin-right: 180px;
+}
+.navbar-social{
+    position: absolute;
+    right:75px;
+} 
 .images{
     box-shadow: 10px 10px 20px lightgrey;
     margin-bottom: 20px;
@@ -43,7 +45,17 @@
 
 /* PORTFOLIO PAGE ENDS */
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px){ 
+    .navbar-social  {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top:-2px;
+        left:calc(50% - 120px/2);
+    }  
+    .navbar-social li{
+        margin: 0 5px;
+    }
     .images img{
         height: auto;   
     }
