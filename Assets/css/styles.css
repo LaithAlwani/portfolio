@@ -30,7 +30,7 @@ body{
 /* CONTACT FORM STARTS */
 
 .contact-form{  
-    margin: 5% 30%;
+    margin: 5% 15%;
     border: 1px solid lightgrey;
     box-shadow: 10px 10px 20px lightgrey;
     padding: 0px;
@@ -82,7 +82,11 @@ footer{
 
 
 /* PORTFOLIO PAGE ENDS */
-
+@media only screen and (max-width:575px){
+    .contact-form{
+        margin: 25px 15px;
+    }
+}
 @media only screen and (max-width:768px){ 
     .navbar-social  {
         display: flex;
@@ -107,10 +111,7 @@ footer{
         padding: 20px ;
     }
 
-    .contact-form{
-        width: 100%;
-        margin: 25px 0;
-    }
+    
 
     
 }
