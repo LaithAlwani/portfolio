@@ -1,22 +1,32 @@
+/* Google font Titillium Eb Import */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap');
 html{
     height: 100%;
 }
+/* Body properties  */
 body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: 'Titillium Web', sans-serif; 
 }
+/* NavBar Properties Start */
  .navbar{
     position: relative;
     
-}
-.collapse{
-    margin-right: 180px;
 }
 .navbar-social{
     position: absolute;
     right:75px;
 } 
+
+/* NavBar Properties Ends */
+
+/* Main profile image  */
+#personal-image{
+    border-radius: 20px;  
+}
+/* Random Images Starts */
 .images{
     box-shadow: 10px 10px 20px lightgrey;
     margin-bottom: 20px;
@@ -26,6 +36,21 @@ body{
     width: 100%;
     height: 100px;
 }
+/* Random Images Ends */
+
+/* PROTFOLIO PAGE START */
+#best-work{
+    margin-bottom: 20px;
+}
+.portfolio .collection{
+    margin-bottom: 20px;
+    
+}
+ .portfolio .card{
+    height: 100%; 
+} 
+
+/* PROTFOLIO PAGE End */
 
 /* CONTACT FORM STARTS */
 
@@ -53,18 +78,7 @@ body{
 
 /* CONTACT FORM ENDS */
 
-/* PROTFOLIO PAGE START */
-#best-work{
-    margin-bottom: 20px;
-}
-.portfolio .collection{
-    margin-bottom: 20px;
-    
-}
- .portfolio .card{
-    height: 100%; 
-} 
-
+/* Footer Styling Properties Start  */
 footer{
     background-color: lightgray;
     margin-top: auto;
@@ -73,15 +87,20 @@ footer{
     text-align: center;
 }
 .list-inline-item a{
-    color: rgb(53, 53, 53);
+    color: rgb(102, 101, 101);
 }
 .list-inline-item a:hover{
     color: gray;
     text-decoration: none;
 }
+.chosen{
+    color: black !important;
+}
 
+/* Footer Styling Properties Start  */
 
-/* PORTFOLIO PAGE ENDS */
+/* Media Queries */
+
 @media only screen and (max-width:575px){
     .contact-form{
         margin: 25px 15px;
@@ -99,19 +118,10 @@ footer{
         margin: 0 5px;  
     }
 
+    #about-me{
+        padding: 0 20px ;
+    }
     .images img{
         height: auto;   
     }
-
-    #personal-image{
-        border-radius: 50%;
-        float: right;
-    }
-    #about-me{
-        padding: 20px ;
-    }
-
-    
-
-    
 }
