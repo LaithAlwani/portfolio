@@ -9,8 +9,6 @@ body{
     flex-direction: column;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-    text-align: justify; 
-    text-transform: uppercase;
 }
 /* NavBar Properties Start */
  .navbar{
