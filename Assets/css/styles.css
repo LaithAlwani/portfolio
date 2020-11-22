@@ -8,12 +8,13 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify; 
+    text-transform: uppercase;
 }
 /* NavBar Properties Start */
  .navbar{
     position: relative;
-    
 }
 .navbar-social{
     position: absolute;
@@ -24,7 +25,8 @@ body{
 
 /* Main profile image  */
 #personal-image{
-    border-radius: 20px;  
+    border-radius: 20px;
+    max-height: 500px;  
 }
 /* Random Images Starts */
 .images{
@@ -36,6 +38,8 @@ body{
     width: 100%;
     height: 100px;
 }
+
+
 /* Random Images Ends */
 
 /* PROTFOLIO PAGE START */
