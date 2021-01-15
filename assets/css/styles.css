@@ -11,7 +11,7 @@ body{
     font-family: 'Titillium Web', sans-serif;
 }
 /* NavBar Properties Start */
- .navbar{
+.navbar{
     position: relative;
     margin-bottom: 10px;
 }
@@ -28,6 +28,11 @@ body{
 }
 .bi{
     font-size: 2.5ex;
+}
+#links{
+    position: relative;
+    left: 50% ;
+    margin-left: -135px;
 }
 
 /* NavBar Properties Ends */
