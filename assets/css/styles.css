@@ -13,19 +13,31 @@ body{
 /* NavBar Properties Start */
  .navbar{
     position: relative;
+    margin-bottom: 10px;
 }
 .navbar-social{
     position: absolute;
     right:75px;
-} 
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.bi{
+    font-size: 2.5ex;
+}
 
 /* NavBar Properties Ends */
 
 /* Main profile image  */
-#personal-image{
-    border-radius: 20px;
-    max-height: 500px;  
+
+#about{
+    margin-top: 80px;
 }
+
 /* Random Images Starts */
 .images{
     box-shadow: 10px 10px 20px lightgrey;
@@ -34,9 +46,7 @@ body{
 }
 .images img{
     width: 100%;
-    height: 100px;
 }
-
 
 /* Random Images Ends */
 
@@ -57,7 +67,8 @@ body{
 /* CONTACT FORM STARTS */
 
 .contact-form{  
-    margin: 5% 15%;
+    width:30%;  
+    margin: 5% auto;
     border: 1px solid lightgrey;
     box-shadow: 10px 10px 20px lightgrey;
     padding: 0px;
@@ -103,17 +114,15 @@ footer{
 
 /* Media Queries */
 
-@media only screen and (max-width:575px){
-    .contact-form{
-        margin: 25px 15px;
-    }
-}
 @media only screen and (max-width:768px){ 
+    .nav-link{
+        padding:2px !important;
+    }
     .navbar-social  {
         display: flex;
         flex-direction: row;
         position: absolute;
-        top:50px;
+        top:10px;
         right:15px;
     }  
     .navbar-social li{
@@ -125,5 +134,20 @@ footer{
     }
     .images img{
         height: auto;   
+    }
+    .contact-form{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .navbar-social{
+        top:50px;
+    }
+    #personal-image{
+        border-radius: 50%;
+    }
+    .contact-form{
+        width: 100%;
     }
 }

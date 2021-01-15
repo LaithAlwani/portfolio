@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script src="https://kit.fontawesome.com/04d9d162e7.js" crossorigin="anonymous"></script>
+
     <title>Laith Alwani</title>
 </head>
 
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <!-- Brand  -->
             <a href="index.html" class="navbar-brand">Laith Alwani</a>
 
@@ -26,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navegation Links -->
-                <ul class="navbar-nav m-auto navbar-center">
+                <ul class="navbar-nav m-auto ">
                     <li class="nav-item active">
                         <a href="index.html" class="nav-link">About</a>
                     </li>
@@ -42,21 +45,25 @@
                 <!-- Social Media Icons  make Icons inside burger to collapse-->
                 <ul class="navbar-nav navbar-social ml-auto">
                     <li class="nav-item">
-                        <a href="https://www.facebook.com/AlwaniLaith " target="_blank" class="nav-link fa-lg"><span
-                                class="fab fa-facebook-square"></span></a>
+                        <a href="https://www.facebook.com/AlwaniLaith " target="_blank" class="nav-link"><span
+                                class="bi bi-facebook fa-lg"></span></a>
                     </li>
                     <li class="nav-item">
-                         <a href="https://www.instagram.com/laitho15/" target="_blank" class="nav-link fa-lg"><span
-                                class="fab fa-instagram-square"></span></a>
+                         <a href="https://www.instagram.com/laitho15/" target="_blank" class="nav-link"><span
+                                class="bi bi-instagram fa-lg"></span></a>
                     </li>
                     <li class="nav-item">
                         <a href="https://github.com/LaithAlwani" target="_blank" class="nav-link fa-lg">
-                            <span class="fab fa-github-square"></span>
+                            <span class="bi bi-github fa-lg"></span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/laith-alwani/" target="_blank" class="nav-link fa-lg"><span
-                                class="fab fa-linkedin"></span></a>
+                        <a href="https://www.linkedin.com/in/laith-alwani/" target="_blank" class="nav-link"><span
+                                class="bi bi-linkedin fa-lg"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="assets/images/resume.pdf" class="nav-link" 
+                        target="_blank"><span class="bi bi-file-earmark-person-fill fa-lg"></span></a>
                     </li>
                 </ul>
                 <!-- Social Media Icons Ends-->
@@ -68,13 +75,15 @@
 
 
     <!-- Main content -->
-    <section class="container">
-        <div class="row mt-3">
+    <main class="container">
+        <div class="row" id="about">
             <!-- Personal Image  -->
             <div class="col-lg-7 col-md-6 order-md-2 text-center">
-
-                <img id="personal-image" class="img-fluid" src="https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/1916370_172793092265_7025131_n.jpg?_nc_cat=110&ccb=2&_nc_sid=cdbe9c&_nc_ohc=ZX8ikPWf02sAX9eWKbr&_nc_ht=scontent.fymy1-2.fna&oh=9ae757432f310051556367aa0f7df54f&oe=5FDF51B2"
-                    alt="Image of a middle eastern man holding a musical instrument">
+                <span class="align-middle">
+                    <img id="personal-image" class="img-fluid " src="assets/images/my-image.png"
+                    alt="Image of a middle eastern man">
+                </span>
+                
             </div>
             <!-- About Me -->
             <article id="about-me" class="col-lg-5 col-md-6 order-md-1 my-auto">
@@ -92,98 +101,25 @@
         <!-- Random Images  -->
         <section>
             <h5>Images:</h5>
-            <div class="row">
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="images">
-                    <img class="img-fluid" src="https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/73324967_10156685605237083_3498600043433164800_o.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=RFchPgN4X0EAX__q8B8&_nc_ht=scontent.fymy1-2.fna&oh=b58f85fd45d179993cd02b9fb102952e&oe=5FE12057" 
-                        alt="A happy family of two adults and two kids">
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-3 col-sm-4 ">
-                <div class="images">
-                    <img class="img-fluid" src="https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/34601677_10155576003662083_6291832926329896960_n.jpg?_nc_cat=106&ccb=2&_nc_sid=174925&_nc_ohc=ifPMf3giQyIAX93p4fH&_nc_ht=scontent.fymy1-2.fna&oh=fef4f418671beab0e5123598e5d2e31d&oe=5FE143A4" 
-                         alt="A Happy middle aged holding his daughter and newborn child">
-                </div>
-
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="images">
-                    <img class="img-fluid" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t31.0-8/10628648_10154757696825291_657632116901804892_o.jpg?_nc_cat=100&ccb=2&_nc_sid=2c4854&_nc_ohc=Y7_7JVrv6BEAX_znbNj&_nc_ht=scontent.fymy1-1.fna&oh=a07eb6b2fed2493a584d12033d9a19ba&oe=5FDDCAB3" 
-                         alt="A gorup of Soccer player in Red Uniform">
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="images">
-                    <img class="img-fluid" src="https://scontent.fymy1-2.fna.fbcdn.net/v/t31.0-8/1093909_10151622839187083_1327418636_o.jpg?_nc_cat=103&ccb=2&_nc_sid=ba80b0&_nc_ohc=b1zA5qVw1D4AX-D_U3Z&_nc_ht=scontent.fymy1-2.fna&oh=37f73351e8a571776deb4aee0f09bcab&oe=5FE03A0A" 
-                    alt="A picture of a Beach in a nice hot summer day">
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="images">
-                    <img class="img-fluid" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/10441444_688655134539111_6958541592771150452_n.jpg?_nc_cat=102&ccb=2&_nc_sid=2c4854&_nc_ohc=kw5KdeaKdZ8AX9mpzwl&_nc_ht=scontent.fymy1-1.fna&oh=40eaf77883684556a6a33db6da72ca92&oe=5FE103D3" 
-                    alt="A gorup of Soccer player in Red Uniform">
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="images">
-                    <img class="img-fluid" src="https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/200562_4704572082_3163_n.jpg?_nc_cat=105&ccb=2&_nc_sid=cdbe9c&_nc_ohc=zeG-dOm2FFAAX-kC5Q4&_nc_oc=AQkhRIFMIgF411Fueosqa_ZvsImb1xdxzvxdkjeDnOrN-RnEQ_ysHyOP6L4kCwiAKyw&_nc_ht=scontent.fymy1-2.fna&oh=d6ccb6844af3ff13530ad33434f4f6e6&oe=5FE01100" 
-                    alt="A couple with a beautiful lake in the background ">
-                </div>
-            </div>
-            
-        </div>
+            <div id="personal-images" class="row"></div>
         </section>
-    </section>
+    </main>
 
     <!-- STICKY FOOTER START -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 my-auto">
-                    <ul class="list-inline mb-0 ">
-                        <li class="list-inline-item"><a class="chosen" href="index.html">About</a></li>
-                        <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="list-inline-item"><a href="contact.html">contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 order-lg-3">
-                    <ul class="list-inline m-0">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/AlwaniLaith " target="_blank" class="nav-link fa-lg"><span
-                                    class="fab fa-facebook-square"></span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/laitho15/" target="_blank" class="nav-link fa-lg"><span
-                                    class="fab fa-instagram-square"></span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/LaithAlwani" target="_blank" class="nav-link fa-lg">
-                                <span class="fab fa-github-square"></span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/laith-alwani/" target="_blank"
-                                class="nav-link fa-lg"><span class="fab fa-linkedin"></span></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 mt-auto mb-1"> <span class="small">Copyright &copy; Laith Alwani 2020 - Ottawa,
-                        ON.</span></div>
-
-            </div>
-
+            <span class="small">Copyright &copy; Laith Alwani 2020 - Ottawa,ON.</span>
         </div>
     </footer>
     <!-- STICKY FOOTER END -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
-
-
 </html>
