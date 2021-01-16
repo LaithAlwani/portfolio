@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
 }
 /* NavBar Properties Start */
 .navbar{
@@ -66,6 +67,11 @@ body{
  .portfolio .card{
     height: 100%; 
 } 
+
+#project{
+    border:1px solid lightgray;
+    margin-bottom: 20px;
+}
 
 /* PROTFOLIO PAGE End */
 
