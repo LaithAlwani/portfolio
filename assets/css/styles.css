@@ -3,13 +3,12 @@
 html{
     height: 100%;
 }
-/* Body properties  */
+/* Body  */
 body{
     display: flex;
     flex-direction: column;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 12px;
 }
 /* NavBar Properties Start */
 .navbar{
@@ -33,7 +32,7 @@ body{
 #links{
     position: relative;
     left: 50% ;
-    margin-left: -135px;
+    margin-left:-135px;
 }
 
 /* NavBar Properties Ends */
@@ -60,12 +59,28 @@ body{
 #best-work{
     margin-bottom: 20px;
 }
-.portfolio .collection{
+#portfolio .collection{
     margin-bottom: 20px;
     
 }
- .portfolio .card{
+#portfolio .card{
     height: 100%; 
+}
+.collection img{
+    height: 200px;
+}
+.btn{
+    background-color: rgba(211, 211, 211, 0.5);
+    margin-bottom: 1em;
+    width: 100%;
+} 
+
+.btn:hover{
+    background-color: lightgray;
+} 
+
+.btn:active{
+    background-color: darkgray;
 } 
 
 #project{
@@ -90,14 +105,6 @@ body{
 }
 .contact-form-main{
     padding: 10px;
-}
-.contact-form .btn{
-    background-color: gray;
-    border-color: gray;
-    color: white;
-}
-.contact-form .btn:hover{
-    background-color: darkgrey;
 }
 
 /* CONTACT FORM ENDS */
