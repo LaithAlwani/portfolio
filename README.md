@@ -10,6 +10,6 @@ A collection of information that inclues an about me section along with projects
 
 please visit [Laith Alwani](https://www.laithalwani.ca) .
 
-please contact me at laithalwani@gmail.com for further informations.
+please contact me at laithalwani@gmail.com for further information.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
