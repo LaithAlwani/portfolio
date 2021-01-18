@@ -39,8 +39,10 @@ body{
 
 /* Main profile image  */
 
-#about{
+#personal-image{
     margin-top: 80px;
+    max-height: 500px;
+    margin-bottom: 20px;
 }
 
 /* Random Images Starts */
@@ -162,9 +164,7 @@ footer{
     .navbar-social{
         top:50px;
     }
-    #personal-image{
-        border-radius: 50%;
-    }
+    
     .contact-form{
         width: 100%;
     }
