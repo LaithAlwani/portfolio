@@ -1,102 +1,35 @@
-/* Google font Titillium Eb Import */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap');
-html{
-    height: 100%;
+html, body{
+    scroll-behavior: smooth;    
+    margin: 0;
 }
-/* Body  */
-body{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+
+.box{
+    min-height: 100vh;
+    padding-top: 2rem;
     font-family: 'Titillium Web', sans-serif;
 }
-/* NavBar Properties Start */
-.navbar{
-    position: relative;
-    margin-bottom: 10px;
-}
-.navbar-social{
-    position: absolute;
-    right:75px;
-}
-.fixed-top{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-.bi{
-    font-size: 2.5ex;
-}
-#links{
-    position: relative;
-    left: 50% ;
-    margin-left:-135px;
-}
-
 .container{
-    margin-top: 80px;
+    min-height: 100vh !important;
 }
-
-/* NavBar Properties Ends */
-
-/* Main profile image  */
-
-#personal-image{
-    max-height: 500px;
-    margin-bottom: 20px;
-}
-
-/* Random Images Starts */
-.images{
-    box-shadow: 10px 10px 20px lightgrey;
-    margin-bottom: 20px;
-    border: 2px solid white;
-}
-.images img{
-    width: 100%;
-}
-
-/* Random Images Ends */
-
-/* PROTFOLIO PAGE START */
-#best-work{
-    margin-bottom: 20px;
-}
-
-#portfolio .collection{
-    margin-bottom: 20px;
+#portfolio{
+    background-color: rgb(233, 233, 233);
     
 }
-#portfolio .card{
-    height: 100%; 
-}
-.collection img{
-    height: 200px;
-}
-.btn{
-    background-color: rgba(211, 211, 211, 0.5);
-    margin-bottom: 1em;
-    width: 100%;
-} 
 
-.btn:hover{
-    background-color: lightgray;
-} 
-
-.btn:active{
-    background-color: darkgray;
-} 
-
-#project{
-    border:1px solid lightgray;
-    margin-bottom: 20px;
+.portfolio-contianer{
+    padding-top: 2rem;
 }
 
-/* PROTFOLIO PAGE End */
+.v-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-/* CONTACT FORM STARTS */
+h5{
+    margin: 0 auto;
+}
 
 .contact-form{  
     width:30%;  
@@ -113,63 +46,32 @@ body{
     padding: 10px;
 }
 
-/* CONTACT FORM ENDS */
+#message{
+    resize: none;
+}
 
-/* Footer Styling Properties Start  */
 footer{
-    background-color: lightgray;
-    margin-top: auto;
-    padding: 5px 0;
-    display: block;
-    text-align: center;
-}
-.list-inline-item a{
-    color: rgb(102, 101, 101);
-}
-.list-inline-item a:hover{
-    color: gray;
-    text-decoration: none;
-}
-.chosen{
-    color: black !important;
+    height: 50px;
+    background-color: black;
+    color: white;
 }
 
-/* Footer Styling Properties Start  */
+@media only screen and (max-width:768px){
 
-/* Media Queries */
-
-@media only screen and (max-width:768px){ 
-    .nav-link{
-        padding:2px !important;
-    }
     .navbar-social  {
         display: flex;
         flex-direction: row;
-        position: absolute;
-        top:10px;
+        /* position: absolute; */
+        top:50px;
         right:15px;
     }  
+
     .navbar-social li{
         margin: 0 5px;  
     }
 
-    #about-me{
-        padding: 0 20px ;
-    }
-    .images img{
-        height: auto;   
-    }
     .contact-form{
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width:575px){
-    .navbar-social{
-        top:50px;
-    }
-    
-    .contact-form{
+        text-align: center;
         width: 100%;
     }
 }

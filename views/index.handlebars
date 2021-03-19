@@ -1,26 +1,175 @@
-<main class="container">
-    <div class="row">
-        <!-- Personal Image  -->
-        <div class=" col-md-6 order-md-2 text-center">
-            <span class="align-middle">
-                <img id="personal-image" class="img-fluid " src="assets/images/my-image.JPG"
-                    alt="Image of a middle eastern man">
-            </span>
-
+<div class="box" id="about">
+    <main class="container text-center v-center">
+        <div class="row">
+            <!-- Personal Image  -->
+            <div class=" col-md-6 order-md-2 ">
+                <img class="img-fluid p-3" src="assets/images/my-image.JPG" alt="Image of a middle eastern man">
+            </div>
+            <!-- About Me -->
+            <article class="col-md-6 order-md-1 my-auto">
+                <h2 class="">&#60;About Me&#62;</h2>
+                <p class="font-weight-bold">I am a full stack web develpoer from Ottawa, Ontairo.</p>
+                <div class="text-left">
+                    <p>I enjoy problem solving and taking on tough challenges and turning into a simple clean solution.
+                        I
+                        have experience in Html, CSS, JavaScript, jQuery and MERN Stack(Mongo, Express, REACT and
+                        Nodejs).
+                    </p>
+                    <p>When I'm not coding or learning a new technology, you would find me videogaming, playing music or
+                        kicking around a soccer ball.</p>
+                </div>
+            </article>
         </div>
-        <!-- About Me -->
-        <article id="about-me" class="col-md-6 order-md-1 my-auto text-center">
-            <h2 class="">&#60;About Me&#62;</h2>
-            <p class="font-weight-bold">I am a full stack web develpoer from Ottawa, Ontairo.</p>
-            <div class="text-left">
-                <p>I enjoy problem solving and taking on tough challenges and turning into a simple clean solution. I
-                    have experience in Html, CSS, JavaScript, jQuery and MERN Stack(Mongo, Express, REACT and Nodejs).
-                </p>
-                <p>When I'm not coding or learning a new technology, you would find me videogaming, playing music or
-                    kicking around a soccer ball.</p>
+    </main>
+</div>
+<div class="box" id="portfolio">
+    <section class="container h-100 v-center portfolio-contianer">
+        <h3>Portfolio:</h3>
+        <div class="row no-gutters mb-3">
+            <div class="col-md-4">
+                <img src="assets/images/project02.png" alt="A computer with two screens that have with codes displayed"
+                    class="img-fluid ">
+            </div>
+            <div class="col-md-8 v-center">
+                <div class="card-body ">
+                    <h5 class="card-title">Movie Search</h5>
+                    <p>Provides details to a certian movie title and displays related movies</p>
+                    <p>Technologies:</p>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <ul>
+                                <li>html</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 ">
+                            <ul>
+                                <li>UIKit (CSS farework)</li>
+                                <li>Giphy API</li>
+                                <li>Open Movie Database API</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://laithalwani.github.io/movie-search" class="btn btn-sm" target="_blank">Deployed
+                            Application</a>
+                        <a href="https://github.com/LaithAlwani/movie-search" class="btn btn-sm" target="_blank">Github
+                            Repository</a>
+                    </div>
+                </div>
             </div>
 
-        </article>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-4 collection d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/images/weather.jpg"
+                        alt="white gears with a blue backgorund titled Web development Projects" class="card-img-top">
+                    <div class="card-body v-center">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">provides current weather details and 5 days forecast for a specific city
+                        </p>
+                        <div class=" card-text text-left">
+                            <span>Technlogies:</span>
+                            <ul class="">
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>UIKit (CSS frame work)</li>
+                                <li>Open Weather Map API</li>
+                            </ul>
+                        </div>
 
+                        <div class="text-center">
+                            <a href="https://laithalwani.github.io/weather-dashboard" class="btn btn-sm"
+                                target="_blank">Deployed Application</a>
+                            <a href="https://github.com/LaithAlwani/weather-dashboard" class="btn btn-sm"
+                                target="_blank">Github Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 collection d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/images/calender.png" alt=" tools layed out on the table titled projects"
+                        class="card-img-top">
+                    <div class="card-body v-center">
+                        <h5 class="card-title">Work Day Scheduler</h5>
+                        <p class="card-text">setting meetings and appointments and orginize the day.</p>
+                        <div class=" card-text text-left">
+                            <span>Technlogies:</span>
+                            <ul class="">
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap 4</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="https://laithalwani.github.io/work-day-scheduler" class="btn btn-sm"
+                                target="_blank">Deployed Application</a>
+                            <a href="https://github.com/LaithAlwani/work-day-scheduler" class="btn btn-sm"
+                                target="_blank">Github Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 collection d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/images/paletta.png" alt="A Cartoonish man with ligh bulb on top of his head"
+                        class="card-img-top">
+                    <div class="card-body v-center">
+                        <h5 class="card-title text-center">Paletta Studio</h5>
+                        <p class="card-text">A digital media company that produces educational apps</p>
+                        <div class=" card-text text-left">
+                            <span>Technlogies:</span>
+                            <ul class="">
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>UIKit</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="https://www.paletta-studio.com" class="btn btn-sm" target="_blank">Deployed
+                                Application</a>
+                            <a href="https://github.com/LaithAlwani/paletta-studio" class="btn btn-sm"
+                                target="_blank">Github Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="box" id="contact">
+    <div class="container v-center">
+        <section class="contact-form ">
+            <div class="contact-form-top">
+                <h4>Contact:</h4>
+                <p class="small text-muted mb-0">please fill out the form below</p>
+            </div>
+            <div class="contact-form-main">
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="textarea" id="textarea" class="form-control" rows="8" placeholder="Message"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Submit</button>
+                </form>
+            </div>
+        </section>
     </div>
-</main>
+
+</div>
