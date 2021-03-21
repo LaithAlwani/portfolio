@@ -12,7 +12,7 @@ html, body{
 .container{
     min-height: 100vh !important;
 }
-#portfolio{
+.portfolio{
     background-color: rgb(233, 233, 233);
     
 }
@@ -31,8 +31,33 @@ h5{
     margin: 0 auto;
 }
 
+.btn{
+    background-color: rgba(112, 112, 112, 0.5);
+    
+} 
+
+.btn:hover{
+    
+    background-color: rgb(61, 61, 61);
+    color: white;
+} 
+
+.btn:active{
+    background-color: rgb(180, 180, 180);
+    color: inherit;
+    outline: none;
+    
+} 
+.btn:focus {
+    outline:none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
 .contact-form{  
-    width:30%;  
+    width:65%;  
     margin: 5% auto;
     border: 1px solid lightgrey;
     box-shadow: 10px 10px 20px lightgrey;
@@ -55,6 +80,7 @@ footer{
     background-color: black;
     color: white;
 }
+
 
 @media only screen and (max-width:768px){
 

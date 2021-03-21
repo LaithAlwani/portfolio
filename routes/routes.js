@@ -1,13 +1,5 @@
 module.exports = function (app) {
     // routes
-app.get("/portfolio", (req, res) => {
-    res.render("portfolio");
-  });
-  
-  app.get("/contact", (req, res) => {
-    res.render("contact");
-  });
-  
   app.post("/email", (req, res) => {
     const inquiry = req.body;
     console.log(inquiry);
